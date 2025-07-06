@@ -28,17 +28,11 @@
 .header {
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  padding: 93.16px 51px 95.19px 50px;
-  height: 293px;
+  padding: 95px 50px 100px 50px;
 }
 
 .header-menu {
-  width: 391.48px;
-  height: 22px;
-  padding-top: 41px;
-  font-size: 18px;
-font-weight: 400;
-line-height: 21px;
+  padding-top: 40px;
 }
 
 .header-menu-list {
@@ -63,20 +57,16 @@ line-height: 21px;
 }
 
 .header-logo {
-  width: 129.11px;
-height: 104.65px;
-left: 478px;
-top: 92px;
+  width: 148px;
+  height: 105px;
   margin-bottom: 3px;
 }
 
 .header-address {
-  padding: 3px 36px 0px 0px;
+  padding: 5px 3px 0 0;
   justify-self: end;
   font-style: normal;
-  font-size: 18px;
-font-weight: 400;
-line-height: 24.3px;
+  line-height: 135%;
   text-underline-position: under;
    p {
         margin: 0;
@@ -96,8 +86,6 @@ line-height: 24.3px;
   display: flex;
   flex-direction: column;
   gap: 106px;
-  width: 1100px;
-height: 757px;
 }
 
 .overlay {
@@ -123,19 +111,17 @@ height: 757px;
 .aligned-text {
   display: block;
   line-height: 115%;
-  
 }
 
 .aligned-text-center {
   text-align: center;
   line-height: 115%;
-  padding: 20px 20px 20px 50px;
+  padding: 20px 60px 20px 0;
 }
 
 .aligned-text-right {
   text-align: end;
   line-height: 115%;
-  margin-left: 613px;
 }
 
 
@@ -155,6 +141,7 @@ height: 757px;
   word-spacing: 18px;
   white-space: nowrap;
   text-transform: uppercase;
+  padding-left: 50px;
 }
 
 .bet-button {
@@ -254,31 +241,11 @@ height: 757px;
 
 .about {
   display: grid;
-  grid-template-columns: 335px auto;
-  padding: 35px 24px 180px 24px;
+  grid-template-columns: 430px auto;
+  padding: 120px 24px 180px 24px;
   gap: 24px;
   justify-items: center;
-  width: 1052px;
-height: 595px;
- 
 }
-
-.about__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  background-color: #000;
-}
-
-.about__logo-image {
-  width: 148px;
-  height: 114px;
-  padding: 0px 72px 320px 47px;
-}
-
 
 
 .about-title {
@@ -292,7 +259,7 @@ height: 595px;
 .about-text {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 25px;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -300,11 +267,9 @@ height: 595px;
 }
 
 .footer {
-  padding: 180px 50px 82px;
+  padding: 0 50px 90px;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  width: 1100px;
-height: 180px;
 }
 
 .address {
@@ -327,8 +292,6 @@ height: 180px;
   flex-direction: column;
   align-items: center;
   list-style: none;
-  font-size: 18px;
-font-weight: 400;
 }
 
 .footer-menu-link {
